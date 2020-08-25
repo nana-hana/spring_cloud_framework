@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      name: basic-function-consumer
+      label: master
+      profile: dev
+      uri: http://localhost:10000
+

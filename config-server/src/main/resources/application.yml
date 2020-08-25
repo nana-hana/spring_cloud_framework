@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: dev
+
+---
+
+spring:
+  profiles: dev
+  application:
+    name: config-server
+  devtools:
+    livereload:
+      port: 20000
+  cloud:
+    config:
+      server:
+        git:
+          uri: 配置文件git路径
+          username: git账号
+          password: git密码
+
+server:
+  port: 10000
