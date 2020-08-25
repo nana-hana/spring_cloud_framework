@@ -1,2 +1,14 @@
-# spring_cloud_framework
-spring cloud 框架整合
+# spring cloud 框架整合
+- spring-security-oauth2
+- jwt
+- eureka
+- openfeign
+- actuator
+- hystrix-dashboard
+- hystrix
+- HikariCP
+- postgresql
+- mybatis
+- zuul
+- swagger
+- spring-cloud-config
